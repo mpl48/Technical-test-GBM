@@ -1,0 +1,10 @@
+Una tienda de alimentación quiere conocer mejor a sus clientes para crear campañas de marketing personalizadas. 
+Te piden que desarrolles un modelo de clasificación usando Keras que tenga en cuenta la frecuencia de compra de los clientes, 
+sus hábitos de gasto y la cantidad máxima que gastan en la tienda. 
+
+El objetivo del modelo es clasificar a los clientes en tres categorías:
+valor bajo
+medio
+alto.
+
+Adjuntamos los datos de entrenamiento en un archivo llamado datos_clasificacion_clientes

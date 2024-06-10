@@ -1,0 +1,25 @@
+La temporada de Fórmula 1 consiste en una serie de carreras, conocidas como Grandes Premios, organizadas por la Federación Internacional del Automóvil (FIA). Los resultados de cada Gran Premio se combinan para determinar el Campeonato del Mundo de Pilotos. Más concretamente, en cada carrera se reparten unos puntos a los pilotos, en función de su clasificación en la carrera. Al final de la temporada, el piloto que haya obtenido más puntos es declarado Campeón del Mundo.
+
+Los organizadores de la Fórmula 1 cambian constantemente las reglas de competición, con el objetivo de ofrecer más emoción a los aficionados. Una de las reglas modificadas para la temporada 2010 fue el reparto de puntos en cada Gran Premio. Desde 2003, la regla de puntuación recompensaba a los ocho mejores pilotos, según la siguiente tabla:
+
+
+[TABLA 1]
+
+ 
+Es decir, el piloto ganador recibía 10 puntos, el segundo clasificado 8 puntos, y así sucesivamente. En la temporada 2010, los diez primeros recibirán puntos, obedeciendo a la siguiente tabla:
+
+[TABLA 2]
+ 
+El cambio en el sistema de puntuación dio lugar a muchas especulaciones sobre cuál habría sido el efecto para el Campeonato del Mundo en el pasado si se hubiera utilizado la nueva puntuación. Por ejemplo, ¿habría sido Lewis Hamilton campeón en 2008, teniendo en cuenta que él y Felipe Massa estaban separados por un solo punto? Para acabar con las especulaciones, la FIA te contrató para escribir un programa que, dados los resultados de cada carrera de una temporada determine el Campeón del Mundo para diferentes sistemas de puntuación
+
+
+Entrada
+La entrada contiene varios casos de prueba. La primera línea de un caso de prueba contiene dos enteros G y P separados por un espacio en blanco, que indican el número de Grandes Premios (1 ≤ G ≤ 100) y el número de pilotos (1 ≤ P ≤ 100). Los pilotos se identifican con números enteros de 1 a P. Cada una de las siguientes G líneas indica el resultado de una carrera, y contiene Q números enteros separados por espacios. En cada línea, el (i)-ésimo número indica el orden de llegada del piloto i en la carrera (el primer número indica el orden de llegada de un piloto 1 en esa carrera, el segundo número indica el orden de llegada del piloto 2 en esa carrera y así sucesivamente). La siguiente línea contiene un único número entero S que indica el número de sistemas de puntuación (1 ≤ S ≤ 10), Después de eso, cada una de las siguientes líneas S contiene una descripción de un sistema de puntuación. La descripción de un sistema de puntuación comienza con un entero K (1 ≤ K ≤ P), que indica el último orden de llegada para recibir puntos, seguido de un espacio en blanco, seguido de e K enteros k0, k1,...., kn-1 (1 ≤ ki ≤ 100) separados por espacios, indicando el número de puntos a asignar (el primer entero indica los puntos por el primer lugar, el segundo entero indica los puntos para el segundo lugar y así sucesivamente). El último caso de prueba va seguido de una línea que contiene sólo dos ceros separados por un espacio en blanco
+
+
+Salida 
+Para cada sistema de puntuación en la entrada su programa debe imprimir una línea, conteniendo el identificador del Campeón del Mundo. Si más de un piloto es Campeón del Mundo (es decir, si hay un empate), la línea debe contener todos los Campeones del Mundo, en orden creciente de identificador, separados por un espacio.
+
+ [IMAGEN]
+
+
