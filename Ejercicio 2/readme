@@ -1,0 +1,25 @@
+Descripción
+Este script de Python procesa datos de carreras desde archivos de texto de entrada, calcula puntos basados en diferentes sistemas de puntuación, y determina los campeones de las carreras. Los resultados se guardan en archivos de texto en un directorio de salida especificado.
+
+Requisitos
+Instalar requeriments.txt en la carpeta raiz a partir de:
+pip install -r requirements.txt
+
+Cada archivo de entrada debe tener el siguiente formato:
+La primera línea contiene dos enteros, G (número de carreras) y P (número de pilotos).
+Las siguientes G líneas contienen los resultados de cada carrera, donde cada línea tiene P enteros que representan las posiciones de llegada de los pilotos.
+Después de las carreras, hay una línea con un entero S, indicando el número de sistemas de puntuación.
+Cada uno de los siguientes S bloques comienza con una línea que indica el número de posiciones puntuables seguido de los puntos correspondientes a cada posición.
+El procesamiento termina para un archivo cuando G y P son ambos cero.
+
+Cómo Ejecutar el Script
+Coloca tus archivos de entrada en un directorio accesible.
+Asegúrate de que el script de Python esté en el mismo directorio que los archivos de entrada o actualiza las rutas en el código según sea necesario.
+Abre tu terminal o línea de comandos.
+Navega al directorio donde se encuentra el script.
+Ejecuta el script con el siguiente comando>
+
+python ejercicio2.py
+
+Salida
+El script creará un directorio llamado output, si no existe, y generará archivos de salida para cada archivo de entrada. Cada archivo de salida contendrá los campeones de cada sistema de puntuación en formato txt, separados por espacios.

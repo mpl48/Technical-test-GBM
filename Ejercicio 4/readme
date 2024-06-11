@@ -1,0 +1,27 @@
+Descripción:
+Este script carga datos de clientes desde un archivo Excel, procesa la información para extraer características relevantes, y utiliza una red neuronal para clasificar a los clientes en categorías de gasto ('bajo', 'medio', 'alto').
+
+Requisitos:
+Instalar requeriments.txt en la carpeta raiz a partir de:
+pip install -r requirements.txt
+
+Datos:
+El archivo de datos debe estar en formato Excel y contener al menos las siguientes columnas:
+customer_id: ID del cliente.
+tran_amount: Monto de las transacciones.
+
+Procedimiento:
+Agrupa los datos por cliente.
+Calcula el gasto total, el gasto máximo y la frecuencia de las transacciones por cliente.
+Categoriza a los clientes basándose en percentiles de gasto total.
+Normaliza las características.
+Divide los datos en conjuntos de entrenamiento y prueba.
+Entrena una red neuronal para clasificar a los clientes.
+Evalúa el modelo utilizando la matriz de confusión y el informe de clasificación.
+
+Ejecución
+Para ejecutar este script, asegúrate de que el archivo de datos esté correctamente ubicado y tenga el formato adecuado, luego ejecuta:
+python ejercicio4.py
+
+Salida
+El script imprimirá una matriz de confusión y un informe de clasificación que muestra la precisión del modelo en la clasificación de clientes.

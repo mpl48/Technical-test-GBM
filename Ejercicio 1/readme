@@ -1,0 +1,22 @@
+Descripción
+Este script de Python proporciona una función para verificar si una cadena dada es un palíndromo. Un palíndromo es una cadena que se lee igual de adelante hacia atrás que de atrás hacia adelante.
+
+Requisitos
+Instalar requeriments.txt en la carpeta raiz a partir de:
+pip install -r requirements.txt
+
+Parámetros:
+s (str): La cadena de texto a verificar.
+Retorna:
+bool: Retorna True si la cadena s es un palíndromo, de lo contrario retorna False.
+
+Para ejecutar el script:
+from ejercicio1 import es_palindromo
+
+Uso de la funcion:
+resultado = es_palindromo("ana")  # Retorna True
+print(resultado)
+
+Ejecucion del codigo:
+python ejercicio1.py
+

@@ -1,0 +1,18 @@
+Descripción:
+Este script calcula el mínimo número de saltos necesarios para alcanzar o superar una posición x y procesa múltiples casos desde archivos de entrada. Los resultados se guardan en archivos de salida correspondientes.
+
+Requisitos:
+Instalar requeriments.txt en la carpeta raiz a partir de:
+pip install -r requirements.txt
+
+Cada archivo de entrada debe contener:
+Un número entero N en la primera línea que indica el número de casos.
+N líneas siguientes, cada una con un entero x representando la posición objetivo.
+
+Uso:
+Coloca tus archivos de entrada en un directorio accesible.
+Ejecuta el script con Python:
+python ejercicio3.py
+
+Salida:
+El script genera archivos de salida en un directorio output, conteniendo los resultados de los cálculos, uno por línea para cada caso.
